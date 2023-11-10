@@ -1,0 +1,77 @@
+header {
+    background-color: black; 
+    height: 150px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-logo {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    width: 125px;
+    height: 125px;
+    z-index: 1;
+}
+
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    position: relative;
+    right: 82px;
+    width: 100px;
+}
+
+.logoutText{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* width: 180px; */
+    font-size: 40px;
+    margin-top: 45px;
+    font-family: 'Nanum Brush Script', cursive;
+    line-height: 1;
+}
+
+.helpText{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.logoutText:active,
+.helpText:active {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.logoutText:hover,
+.helpText:hover {
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+h1 {
+	font-family: 'Nanum Brush Script', cursive;
+	font-weight: bolder;
+	font-size: 40px;
+	margin: 20px;
+	text-align: center;
+}
+
+.vert{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+}
+
+.horiz{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+}
+
+.searchBar{
+	border-radius: 1%;
+	width: 30vw;
+	height: 4vh;
+	font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+	font-size: 20px;
+}
+
+.recipeContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+}

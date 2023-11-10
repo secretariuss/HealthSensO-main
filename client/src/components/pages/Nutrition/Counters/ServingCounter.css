@@ -1,0 +1,98 @@
+.servingPage {
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.servingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+
+.colContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.servings {
+    border-radius: 0.5em;
+    position: relative;
+}
+
+.buttonGroupTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonGroupBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.serving-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+   font-family: 'Nanum Brush Script', cursive;
+   font-weight: bolder;
+   font-size: 20px;
+}
+
+
+.progress-bar-vertical {
+    width: 80px;
+    min-height: 428px;
+    display: flex;
+    align-items: flex-end;
+    float: left;
+}
+
+.progress-bar-vertical .progress-bar {
+    width: 100%;
+    height: 100px;
+    -webkit-transition: height 0.6s ease;
+    -o-transition: height 0.6s ease;
+    transition: height 0.6s ease;
+}
+
+
+.waterServing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.glass {
+    position: relative;
+    height: 450px;
+    width: 250px;
+    border-radius: 0%;
+    z-index: -1;
+}

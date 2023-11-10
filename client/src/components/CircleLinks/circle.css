@@ -1,0 +1,83 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+    line-height: 0;
+    border: 5px solid black;
+    position: relative; 
+    color: black;
+}
+
+.circle-active {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: black;
+    line-height: 0;
+    border: 5px solid white;
+}
+
+.circle-link {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: white;
+    line-height: 0;
+    border: 5px solid black;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-link:active {
+    display: block;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: black;
+    line-height: 0;
+    border: 5px solid white;
+}
+.circle::after {
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circleText {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+}
+
+.circleTextLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;   
+}
+
+.circleText:link,
+.circleTextLink:link {
+    color: black!important;
+    text-decoration: none;
+}
+
+.circle:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+}

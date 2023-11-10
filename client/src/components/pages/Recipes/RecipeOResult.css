@@ -1,0 +1,17 @@
+.listArrange{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 0.5%;
+	align-content: space-evenly;
+	align-items: flex-start;
+	height: 80vh;
+}
+
+img{
+	border-radius: 50%;
+	width: 12vw;
+	height: 20vh;
+}

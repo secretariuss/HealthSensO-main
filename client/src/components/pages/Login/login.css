@@ -1,0 +1,65 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+    line-height: 0;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: black;
+    line-height: 0;
+    border: 5px solid white;
+    color: white;
+}
+
+.circle::after {
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circleText {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+.circleText2 {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.circle:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.circle2:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    border: 5px solid white;
+}
